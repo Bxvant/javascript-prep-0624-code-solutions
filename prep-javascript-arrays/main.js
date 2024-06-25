@@ -1,0 +1,10 @@
+const language = ['html', 'css', 'javascript', 'react', 'node', 'postgres'];
+console.log('value of language', language);
+const firstElement = language[0];
+console.log('value of first element', firstElement);
+const thirdElement = language[2];
+console.log('value of thirdElement', thirdElement);
+const length = language.length;
+console.log('length of language array', length);
+const lastElement = language[length - 1];
+console.log(lastElement);
